@@ -14,9 +14,12 @@ nav ul{display:flex;gap:1rem;list-style:none;padding:0;margin:0}
 nav a{color:#fff;text-decoration:none}
 nav a:hover{color:var(--gold)}
 .menu-toggle{display:none;color:#fff;font-size:1.5rem;cursor:pointer}
-.hero{padding:120px 20px;text-align:center;color:#fff;background:linear-gradient(rgba(15,23,42,.75),rgba(15,23,42,.75));url('../images/hero.jpg');
-    background-size: cover;
-    background-position: center;}
+.hero{padding:120px 20px;
+      text-align:center;
+      color:#fff;
+      background:linear-gradient(rgba(15,23,42,.75),rgba(15,23,42,.75)),url('../images/hero.jpg');
+      background-size: cover;
+      background-position: center;}
 .hero-image-note{border:2px dashed #fff;padding:20px;display:inline-block;margin-bottom:20px}
 .btn{background:var(--gold);color:#000;padding:12px 20px;text-decoration:none;border-radius:6px}
 .container{max-width:1200px;margin:auto;padding:40px 20px}
