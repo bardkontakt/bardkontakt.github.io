@@ -34,4 +34,9 @@ footer{background:var(--navy);color:#fff;text-align:center;padding:20px}
  nav ul{display:none;flex-direction:column;background:var(--navy);position:absolute;left:0;right:0;top:60px;padding:20px}
  nav ul.active{display:flex}
  .menu-toggle{display:block}
+ h2 {
+    border-left: 4px solid #d4a017;
+    padding-left: 10px;
+    margin-top: 40px;
+}
 }
